@@ -30,8 +30,8 @@ import fitz  # PyMuPDF  (pip install pymupdf)
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 # Use env vars (recommended)
-GEMINI_API_KEY   = "AIzaSyCz_Gj2jyURtaC8GjcUn-Zv2layXnjlmPU"
-OPENAI_API_KEY   = "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"
+GEMINI_API_KEY   = "Your-API-KEY"
+OPENAI_API_KEY   = "Your-API-KEY"
 
 # Worker model (Gemini)
 WORKER_MODEL     = "gemini-2.5-flash"
@@ -498,3 +498,4 @@ with gr.Blocks(css=CSS, title="Guarded RAG Assistant") as demo:
 
 if __name__ == "__main__":
     demo.launch(share=True, show_error=True)
+
